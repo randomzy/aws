@@ -1,0 +1,81 @@
+{
+"file_metadata": {
+  "jams_version": "0.2.0",
+  "identifiers": { "filename": "JCLbEkebtIs.ogg" },
+  "duration": 151.974603175
+},
+"annotations": [
+{
+  "namespace": "unknown",
+  "annotation_metadata": {
+    "annotation_tools": "Sonic Annotator v1.6",
+    "data_source": "Automatic feature extraction",
+    "annotator": {
+      "plugin_id": "vamp:nnls-chroma:chordino",
+      "output_id": "simplechord",
+      "plugin_version": "5",
+      "step_size": 2048,
+      "block_size": 16384,
+      "sample_rate": 44100,
+      "parameters": {
+        "boostn": 0.1,
+        "rollon": 0,
+        "s": 0.69999999,
+        "tuningmode": 0,
+        "useNNLS": 1,
+        "usehartesyntax": 0,
+        "whitening": 1
+      },
+      "transform_id": "vamp:nnls-chroma:chordino:simplechord"
+    }
+  },
+  "data": [
+    { "time": 0.000000000, "duration": 0.0, "confidence": 1.0, "value": "N" },
+    { "time": 25.402630385, "duration": 0.0, "confidence": 1.0, "value": "C7/E" },
+    { "time": 28.281904762, "duration": 0.0, "confidence": 1.0, "value": "Bmaj7" },
+    { "time": 29.814421769, "duration": 0.0, "confidence": 1.0, "value": "Em7b5/D" },
+    { "time": 30.325260771, "duration": 0.0, "confidence": 1.0, "value": "Cm7b5/Bb" },
+    { "time": 33.111655329, "duration": 0.0, "confidence": 1.0, "value": "N" },
+    { "time": 50.619501134, "duration": 0.0, "confidence": 1.0, "value": "B7" },
+    { "time": 52.384217687, "duration": 0.0, "confidence": 1.0, "value": "G6" },
+    { "time": 53.684535147, "duration": 0.0, "confidence": 1.0, "value": "Cm7b5/Bb" },
+    { "time": 57.353287982, "duration": 0.0, "confidence": 1.0, "value": "Fm7" },
+    { "time": 58.003446712, "duration": 0.0, "confidence": 1.0, "value": "Daug" },
+    { "time": 59.118004535, "duration": 0.0, "confidence": 1.0, "value": "Eb/Bb" },
+    { "time": 60.279002268, "duration": 0.0, "confidence": 1.0, "value": "F#maj7" },
+    { "time": 62.322358277, "duration": 0.0, "confidence": 1.0, "value": "N" },
+    { "time": 72.910657596, "duration": 0.0, "confidence": 1.0, "value": "Am" },
+    { "time": 73.421496599, "duration": 0.0, "confidence": 1.0, "value": "Em7b5" },
+    { "time": 77.740408163, "duration": 0.0, "confidence": 1.0, "value": "N" },
+    { "time": 79.783764172, "duration": 0.0, "confidence": 1.0, "value": "Amaj7" },
+    { "time": 80.666122449, "duration": 0.0, "confidence": 1.0, "value": "N" },
+    { "time": 86.749750567, "duration": 0.0, "confidence": 1.0, "value": "Bbaug" },
+    { "time": 87.910748299, "duration": 0.0, "confidence": 1.0, "value": "Abmaj7" },
+    { "time": 89.350385488, "duration": 0.0, "confidence": 1.0, "value": "B7" },
+    { "time": 90.697142857, "duration": 0.0, "confidence": 1.0, "value": "Abmaj7" },
+    { "time": 91.161541950, "duration": 0.0, "confidence": 1.0, "value": "A" },
+    { "time": 91.672380952, "duration": 0.0, "confidence": 1.0, "value": "Bb" },
+    { "time": 91.904580499, "duration": 0.0, "confidence": 1.0, "value": "Ab" },
+    { "time": 92.322539683, "duration": 0.0, "confidence": 1.0, "value": "Bb6" },
+    { "time": 94.783854875, "duration": 0.0, "confidence": 1.0, "value": "N" },
+    { "time": 113.081179138, "duration": 0.0, "confidence": 1.0, "value": "B7" },
+    { "time": 113.870657596, "duration": 0.0, "confidence": 1.0, "value": "N" },
+    { "time": 118.189569161, "duration": 0.0, "confidence": 1.0, "value": "Gmaj7" },
+    { "time": 120.836643991, "duration": 0.0, "confidence": 1.0, "value": "Emaj7" },
+    { "time": 121.486802721, "duration": 0.0, "confidence": 1.0, "value": "G6" },
+    { "time": 122.276281179, "duration": 0.0, "confidence": 1.0, "value": "F" },
+    { "time": 122.740680272, "duration": 0.0, "confidence": 1.0, "value": "Ebmaj7" },
+    { "time": 123.623038549, "duration": 0.0, "confidence": 1.0, "value": "Em" },
+    { "time": 125.527074830, "duration": 0.0, "confidence": 1.0, "value": "E" },
+    { "time": 130.310385488, "duration": 0.0, "confidence": 1.0, "value": "Fmaj7" },
+    { "time": 133.468299320, "duration": 0.0, "confidence": 1.0, "value": "Bb6" },
+    { "time": 135.418775510, "duration": 0.0, "confidence": 1.0, "value": "Em7" },
+    { "time": 136.765532880, "duration": 0.0, "confidence": 1.0, "value": "Abm7b5/Gb" },
+    { "time": 138.251609977, "duration": 0.0, "confidence": 1.0, "value": "N" },
+    { "time": 141.827482993, "duration": 0.0, "confidence": 1.0, "value": "E" },
+    { "time": 148.003990930, "duration": 0.0, "confidence": 1.0, "value": "Bb" },
+    { "time": 151.626303855, "duration": 0.0, "confidence": 1.0, "value": "N" }
+  ]
+}
+]
+}

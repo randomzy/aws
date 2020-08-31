@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  overflow: hidden;
+  background-color: crimson;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  z-index: 1;
+}
+
+.header a {
+  color: bisque;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-decoration: none;
+  font-size: 30px;
+  width: 100px;
+}
+
+.header a:hover {
+  color: black;
+}
+
+.header .search-container {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.header .search-container .search-button {
+  height: 100%;
+  width: 40px;
+}
+
+.header .search-container .search-button:hover {
+  height: 100%;
+  width: 40px;
+  color: crimson;
+}
+
+.header .search-container .search-input {
+  height: 100%;
+}
+
+.header form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  background-color: #383838;
+}
+
+.board-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  padding: 50px;
+}
+
+.board-wrapper .board-entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: crimson solid 2px;
+  border-radius: 8px;
+  width: 60%;
+  height: 30px;
+  margin-bottom: 20px;
+  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+}
+
+.board-wrapper .board-entry:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.app-wrapper {
+  padding-top: 30px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-wrapper .player-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+}
+
+.app-wrapper .song-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6%;
+  padding-top: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app-wrapper .song-title {
+  padding-bottom: 10px;
+}
+
+.app-wrapper .bpm {
+  font-size: 20px;
+}
+
+.app-wrapper .progress::before {
+  content: "Current beat:";
+  display: inline-block;
+}
+
+.app-wrapper .time {
+  font-size: 25px;
+}
+
+.app-wrapper .time:after {
+  content: ". seconds";
+  display: inline-block;
+}
+
+.app-wrapper .reels-container {
+  margin-top: 50px;
+  width: 650px;
+  height: 110px;
+  border: 3px solid rgba(44, 44, 44, 0.418);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  overflow-x: scroll;
+}
+
+.app-wrapper .reels-container .reel {
+  position: relative;
+  height: 100%;
+  margin: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+  border: 2px solid #00000033;
+  border-radius: 10px;
+}
+
+.app-wrapper .reels-container .reel .reel-inner {
+  min-width: 70px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

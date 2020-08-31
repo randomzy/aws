@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  overflow: hidden;
+  background-color: crimson;
+  top:0;
+  position: sticky;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+
+  a{
+    color: bisque;
+    flex: 1;
+    text-decoration: none;
+    font-size: 30px;
+    width: 100px;
+  }
+
+  a:hover{
+    color: black;
+  }
+
+  .search-container {
+    flex: 2;
+
+    .search-button {
+      height: 100%;
+      width: 40px;
+    }
+
+    .search-button:hover {
+      height: 100%;
+      width: 40px;
+      color: crimson;
+    }
+
+    .search-input {
+      height: 100%;
+    }
+  }
+
+  form{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+}
+
+.footer{
+  width: 100%;
+  background-color: rgb(56, 56, 56);
+}
+
+.board-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 50px;
+
+  .board-entry {
+    display: flex;
+    justify-content: center;
+    border: crimson solid 2px;
+    border-radius: 8px;
+    width: 60%;
+    height: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .board-entry:hover {
+    background-color: crimson;
+    color: white;
+  }
+}
+
+.app-wrapper {
+  padding-top: 30px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  .player-holder {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+
+  .song-data {
+    display: flex;
+    padding:6%;
+    padding-top: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .song-title {
+    padding-bottom: 10px;
+  }
+
+  .bpm {
+    font-size: 20px;
+  }
+
+  .progress {
+    &::before {
+      content: "Current beat:";
+      display: inline-block;
+    }
+  }
+
+  .time {
+    font-size: 25px;
+
+    &:after {
+      content: ". seconds";
+      display: inline-block;
+    }
+  }
+
+  .reels-container {
+    margin-top: 50px;
+    width: 650px;
+    height: 110px;
+    border: 3px solid rgba(44, 44, 44, 0.418);
+    display: flex;
+    padding: 10px;
+    overflow-x: scroll;
+
+    .reel {
+      position: relative;
+      height: 100%;
+      margin: 0 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      border: 2px solid #00000033;
+      border-radius: 10px;
+
+      .reel-inner {
+        min-width: 70px;
+        text-align: center;
+      }
+    }
+  }
+}

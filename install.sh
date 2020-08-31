@@ -3,6 +3,19 @@
 mkdir ~/downloads
 cd ~/downloads
 
+#install fuse
+sudo yum install fuse
+
+#install ffmpeg
+sudo wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
+tar -xvf ffmpeg-release-amd64-static.tar.xz
+cd ffmpeg-4.3.1-amd64-static
+sudo chmod a+rx ffmpeg
+sudo chmod a+rx ffprobe
+sudo chmod a+rx qt-faststart
+sudo cp ./* /usr/local/bin
+cd ~-
+
 #install youtube-dl
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl

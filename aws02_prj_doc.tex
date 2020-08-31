@@ -1,0 +1,184 @@
+
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[bulgarian]{babel}
+\usepackage{graphicx}
+\usepackage{sidecap}  %required for side captions
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{commath}  
+\usepackage[top=1.3in, bottom=1.5in, left=1.3in, right=1.3in]{geometry}
+
+
+\begin{document}
+	\begin{center}
+        \LARGE{\textbf{Тема: @title-of-project}}
+        
+        \bigskip
+        \Large{Предмет: @course-name}
+        
+        \medskip
+        \Large{Изготвил: Мартин Танчев, фн: 81401, имейл: mtanchev@uni-sofia.bg}
+        
+        \medskip
+        \Large{Лектор: Милен Петров, година: 2020}
+        
+        \bigskip
+	\end{center}
+    
+    
+  %  \newpage
+    \tableofcontents
+    \bigskip
+    \bigskip
+    \newpage
+  
+\section{Условие} 
+
+\noindent @lorem25.
+
+\medskip
+
+
+\noindent @lorem25  \textbf{@Term1} @lorem3 \textbf{@Term2}.
+
+\section{Въведение}
+
+@lorem25
+
+\noindent @lorem8:
+
+\begin{itemize}
+    \item @lorem2.
+    
+    \item @lorem7.
+    
+    \item @lorem6.
+\end{itemize}
+
+\section{Теория}
+\noindent lorem10. 
+
+\medskip
+
+\noindent @Lorem6 \textb{Term3} @lorem15.
+
+\noindent @Lorem6 \textbf{Term4}.
+
+%\newpage
+
+\section{Използвани технологии}
+\begin{itemize}
+    \item \textbf{@TermTech1} - version @term-version1.
+    
+    \item \textbf{@TermTech2} - @term-version2.
+\end{itemize}
+
+%\newpage
+
+\section{Инсталация и настройки}
+\noindent\textbf{Стъпка 1.} @lorem8.
+
+\medskip
+
+\noindent\textbf{Стъпка 2.} @lorem2 \textbf{@term}. @lorem4 \textbf{config}.
+
+\begin{figure}[h!]
+\centering
+  \includegraphics[width=0.8\textwidth]{installation1}
+  \caption{@FigCaption - [@CiteSource]}
+\end{figure}
+
+
+\noindent @lorem15.
+
+\medskip
+
+\section{Кратко ръководство за потребителя}
+
+@lorem25.
+
+\begin{figure}[h!]
+\centering
+    \includegraphics[scale=0.4]{9999_fig1.png}
+  \caption{@FigCaption - [@CiteSource]}
+\end{figure}
+
+\noindent   @Lorem24:
+
+\begin{SCfigure}
+\centering
+   \caption{aa@FigCaption - [@CiteSource]}
+   \includegraphics[scale=0.5\textwidth]{9999_fig1.png}
+\end{SCfigure}
+
+\begin{SCfigure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{9999_fig1.png}
+    \caption{This is the same picture of the universe as above, but now the captions appear in the side next to the image}
+\end{SCfigure}
+
+\section{Примерни данни}
+
+Lorem8: \textbf{@SampleData1}, \textbf{@SampleData12}, . 
+
+ \noindent @lorem10:
+
+% https://www.overleaf.com/learn/latex/Tables#List_of_tables
+
+
+\begin{table}
+\caption{@TableCaption}
+\center
+\begin{tabular}{ |c|c|c| }
+ \hline
+ cell1 & cell2 & cell3 \\ \hline
+ cell4 & cell5 & cell6 \\ \hline 
+ cell7 & cell8 & cell9 \\ 
+ \hline
+\end{tabular}
+%\label{table:ta}
+\end{table}
+%\caption{\label{tab:table-name}Your caption.}
+
+ 
+\section{Описание на програмния код}
+
+\subsection{@Module1}
+ @Lorem10.
+
+\subsection{@Module2}
+
+\medskip
+
+
+\section{Приноси на студента, ограничения и възможности за бъдещо развитие}
+
+@lorem25.
+
+\medskip
+
+\noindent @lorem26.
+
+\section{Какво научих}
+@lorem33.
+
+\section{Списък с фигури и таблици}
+
+\listoftables
+
+\listoffigures
+
+\section{Използвани източници}
+
+\noindent\href{http://php.net/manual/en/function.password-hash.php}{[1] password hash}
+ 
+\medskip
+
+
+
+\bigskip
+
+\end{document}
